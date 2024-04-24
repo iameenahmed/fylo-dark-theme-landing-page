@@ -3,7 +3,7 @@ import testimonial from "../data/testimonials.json";
 
 const Testimonials = () => {
   return (
-    <div className="mx-8 grid gap-x-10 gap-y-8 bg-quote bg-no-repeat pt-8 md:mx-auto md:mb-24 md:max-w-[73.75rem] md:grid-cols-3 md:px-2 md:pt-8">
+    <div className="mx-auto grid max-w-[22rem] gap-x-10 gap-y-8 bg-quote bg-no-repeat px-2 pt-8 md:mb-24 md:pt-8 lg:max-w-[73.75rem] lg:grid-cols-3">
       {testimonial.map(({ id, name, position, image, testimonial }) => {
         return (
           <Testimonial

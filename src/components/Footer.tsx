@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="mb-8">
         <img src={logo} alt="logo" />
       </div>
-      <div className="md:flex md:gap-8">
+      <div className="lg:flex lg:gap-8">
         <div className="mb-20 grid items-start gap-y-4 md:basis-2/4 md:grid-cols-3 md:grid-rows-2 md:gap-y-0">
           <div className="flex items-start gap-4 md:col-span-2 md:row-span-2">
             <img src={locationIcon} alt="location icon" className="mt-1.5" />
@@ -30,7 +30,7 @@ const Footer = () => {
             <p>example@fylo.com</p>
           </div>
         </div>
-        <div className="flex flex-col gap-y-12 md:basis-1/4 md:flex-row md:justify-around">
+        <div className="flex flex-col gap-y-12 md:basis-1/4 md:flex-row md:gap-28 lg:justify-around lg:gap-0">
           <ul className="space-y-3 md:space-y-5">
             {companyInfoLinks.map((link, index) => {
               return (
@@ -50,8 +50,8 @@ const Footer = () => {
             })}
           </ul>
         </div>
-        <div className="mt-8 md:mt-0">
-          <ul className="flex justify-center gap-4 md:row-span-2 md:basis-1/4 md:justify-normal">
+        <div className="mt-8 md:row-span-2 lg:mt-0 lg:basis-1/4">
+          <ul className="flex justify-center gap-4 lg:justify-normal">
             <li className="h-12 w-12 rounded-full border border-white"></li>
             <li className="h-12 w-12 rounded-full border border-white"></li>
             <li className="h-12 w-12 rounded-full border border-white"></li>
