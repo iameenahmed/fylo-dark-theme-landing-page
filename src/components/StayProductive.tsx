@@ -3,7 +3,7 @@ import arrow from "/src/assets/icon-arrow.svg";
 
 const StayProductive = () => {
   return (
-    <div className="my-20 grid items-center gap-12 p-7 md:my-[8.5rem] md:gap-14 md:px-[6.5rem] lg:grid-cols-2">
+    <div className="my-20 grid items-center gap-12 p-7 md:mb-[9rem] md:mt-[8rem] md:gap-14 md:px-[6.5rem] lg:grid-cols-2 lg:py-0">
       <div>
         <img
           src={illustration}

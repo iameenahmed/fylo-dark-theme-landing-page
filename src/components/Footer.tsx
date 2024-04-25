@@ -2,6 +2,7 @@ import logo from "../assets/logo.svg";
 import locationIcon from "../assets/icon-location.svg";
 import phoneIcon from "../assets/icon-phone.svg";
 import emailIcon from "../assets/icon-email.svg";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const companyInfoLinks = ["About Us", "Jobs", "Press", "Blog"];
@@ -12,11 +13,11 @@ const Footer = () => {
       <div className="mb-8">
         <img src={logo} alt="logo" />
       </div>
-      <div className="lg:flex lg:gap-8">
+      <div className="lg:flex lg:gap-0">
         <div className="mb-20 grid items-start gap-y-4 md:basis-2/4 md:grid-cols-3 md:grid-rows-2 md:gap-y-0">
           <div className="flex items-start gap-4 md:col-span-2 md:row-span-2">
             <img src={locationIcon} alt="location icon" className="mt-1.5" />
-            <p className="md:pr-8">
+            <p className="md:pr-20">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
@@ -30,7 +31,7 @@ const Footer = () => {
             <p>example@fylo.com</p>
           </div>
         </div>
-        <div className="flex flex-col gap-y-12 md:basis-1/4 md:flex-row md:gap-28 lg:justify-around lg:gap-0">
+        <div className="flex flex-col gap-y-12 md:basis-1/4 md:flex-row md:gap-28 lg:justify-end lg:gap-24">
           <ul className="space-y-3 md:space-y-5">
             {companyInfoLinks.map((link, index) => {
               return (
@@ -51,10 +52,37 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mt-8 md:row-span-2 lg:mt-0 lg:basis-1/4">
-          <ul className="flex justify-center gap-4 lg:justify-normal">
-            <li className="h-12 w-12 rounded-full border border-white"></li>
-            <li className="h-12 w-12 rounded-full border border-white"></li>
-            <li className="h-12 w-12 rounded-full border border-white"></li>
+          <ul className="flex justify-center gap-4 lg:justify-end">
+            <li className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="facebook"
+              >
+                <FaFacebookF />
+              </a>
+            </li>
+            <li className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="twitter"
+              >
+                <FaTwitter />
+              </a>
+            </li>
+            <li className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="instagram"
+              >
+                <FaInstagram />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -2,9 +2,9 @@ import illustration from "../assets/illustration-intro.png";
 
 const Hero = () => {
   return (
-    <div className="bg-primary bg-mobile bg-bottom bg-no-repeat px-9 pb-28 text-center md:bg-desktop md:pb-[11rem]">
+    <div className="bg-primary bg-mobile bg-bottom bg-no-repeat px-9 pb-28 text-center md:bg-desktop md:pb-[10.375rem]">
       <div className="md:mx-auto md:max-w-[45.75rem]">
-        <div className="my-12 flex justify-center md:mt-[4.25rem]">
+        <div className="mb-8 flex justify-center">
           <img
             src={illustration}
             alt="illustration"
@@ -12,11 +12,11 @@ const Hero = () => {
           />
         </div>
 
-        <div className="space-y-6 md:space-y-7">
-          <h1 className="font-Raleway text-2xl font-bold md:text-4xl md:leading-snug">
+        <div className="space-y-6 md:space-y-8">
+          <h1 className="font-Raleway text-2xl font-bold md:text-[2.5rem] md:leading-normal">
             All your files in one secure location, accessible anywhere.
           </h1>
-          <p className="mb-10 md:px-24 md:text-lg">
+          <p className="mb-9 md:px-16 md:text-xl">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
