@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/fylo-dark-theme-landing-page](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page)
+- Solution URL: [frontendmentor.io/solutions/fylo-dark-theme-landing-page](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-using-reactsjs-Kq2jFiw-XW)
 
 ## My process
 
