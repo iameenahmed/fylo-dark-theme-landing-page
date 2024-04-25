@@ -1,5 +1,5 @@
 import Feature from "../components/Feature";
-import features from "../data/features.json";
+import features from "../data/features.ts";
 
 const Features = () => {
   return (
